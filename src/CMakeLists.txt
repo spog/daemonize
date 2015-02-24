@@ -1,7 +1,7 @@
 #
 # The DAEMONIZE library build rules
 #
-# Copyright (C) 2014 Samo Pogacnik <samo_pogacnik@t-2.net>
+# Copyright (C) 2015 Samo Pogacnik <samo_pogacnik@t-2.net>
 # All rights reserved.
 #
 # This file is part of the DAEMONIZE software project.

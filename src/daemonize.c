@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2012  Samo Pogacnik
+ *  Copyright (C) 2015  Samo Pogacnik
  */
 
 /*
