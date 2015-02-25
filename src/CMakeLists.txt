@@ -16,4 +16,4 @@ add_library (daemonize SHARED daemonize.c)
 set_target_properties (daemonize PROPERTIES VERSION ${daemonize_VERSION_STRING} SOVERSION ${daemonize_VERSION_MAJOR})
 
 install(TARGETS daemonize DESTINATION lib COMPONENT libs)
-#install(FILES ${daemonize_SOURCE_DIR}/include/daemonize/libdaemonize.h ${daemonize_SOURCE_DIR}/include/daemonize/log_module.h DESTINATION include/daemonize COMPONENT headers)
+install(FILES ${daemonize_SOURCE_DIR}/include/daemonize/daemonize.h DESTINATION include/daemonize COMPONENT headers)

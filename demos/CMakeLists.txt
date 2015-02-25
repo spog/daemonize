@@ -11,7 +11,7 @@
 
 # Add executable called "hello_daemonize" that is built from the source files  
 # "hello_daemonize.c" and "hello_daemonize.h".  
-add_executable (hello_daemonize hello_daemonize.c hello_daemonize.h)    
+add_executable (hello_daemonize hello_daemonize.c)    
         
 # Make sure the linker can find the Hello library once it is built.  
 link_directories (${daemonize_BINARY_DIR}/daemonize)
