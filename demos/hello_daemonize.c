@@ -6,7 +6,7 @@
  *
  * This file is part of the DAEMONIZE software project.
  * This file is provided under the terms of the BSD 3-Clause license,
- * available in the LICENSE file of the EVM software project.
+ * available in the LICENSE file of the "daemonize" software project.
 */
 
 /*
