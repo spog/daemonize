@@ -16,10 +16,10 @@ cmake_minimum_required (VERSION 2.8)
 project (daemonize)
 
 # The project version number.
-set (daemonize_VERSION_MAJOR 0)
-set (daemonize_VERSION_MINOR 1)
-set (daemonize_VERSION_PATCH 1)
-set (daemonize_VERSION_STRING ${daemonize_VERSION_MAJOR}.${daemonize_VERSION_MINOR}.${daemonize_VERSION_PATCH})
+set (project_VERSION_MAJOR 0)
+set (project_VERSION_MINOR 1)
+set (project_VERSION_PATCH 1)
+set (project_VERSION_STRING ${project_VERSION_MAJOR}.${project_VERSION_MINOR}.${project_VERSION_PATCH})
 
 # The project configuration header file passes required CMake settings
 # to the source code.
@@ -96,7 +96,7 @@ add_custom_target(first ALL
     -DSOURCE_DIR=${CMAKE_SOURCE_DIR}
     -DBINARY_DIR=${CMAKE_BINARY_DIR}
     -Dproj_name=${CMAKE_PROJECT_NAME}
-    -Dproj_version=${daemonize_VERSION_STRING}
+    -Dproj_version=${project_VERSION_STRING}
     -Dtarget_arch=${CMAKE_SYSTEM_PROCESSOR}
     -P ${CMAKE_SOURCE_DIR}/create-cpackoptions.cmake
     )

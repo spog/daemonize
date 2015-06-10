@@ -66,3 +66,7 @@ Demos:
 ======
 Programs included under "demos" directory demonstrate usage of the daemonize library.
 
+U2UP packaging:
+===============
+Requires build.u2up component framework to be installed.
+

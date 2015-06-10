@@ -12,8 +12,8 @@
 #ifndef config_h
 #define config_h
 
-#define DAEMONIZE_VERSION_MAJOR @daemonize_VERSION_MAJOR@
-#define DAEMONIZE_VERSION_MINOR @daemonize_VERSION_MINOR@
-#define DAEMONIZE_VERSION_PATCH @daemonize_VERSION_PATCH@
+#define DAEMONIZE_VERSION_MAJOR @project_VERSION_MAJOR@
+#define DAEMONIZE_VERSION_MINOR @project_VERSION_MINOR@
+#define DAEMONIZE_VERSION_PATCH @project_VERSION_PATCH@
 
 #endif /*config_h*/

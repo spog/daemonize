@@ -13,7 +13,7 @@
 # The extension is already found. Any number of sources could be listed here.
 add_library (daemonize SHARED daemonize.c) 
 
-set_target_properties (daemonize PROPERTIES VERSION ${daemonize_VERSION_STRING} SOVERSION ${daemonize_VERSION_MAJOR})
+set_target_properties (daemonize PROPERTIES VERSION ${project_VERSION_STRING} SOVERSION ${project_VERSION_MAJOR})
 
 install(TARGETS daemonize DESTINATION lib COMPONENT libs)
 install(FILES ${daemonize_SOURCE_DIR}/include/daemonize/daemonize.h DESTINATION include/daemonize COMPONENT headers)
