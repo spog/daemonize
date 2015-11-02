@@ -1,2 +1,6 @@
 # Component name:
 comp_name=daemonize
+
+# Required minimum build.u2up version:
+min_build_u2up_MAJOR=0
+min_build_u2up_MINOR=1
