@@ -26,13 +26,13 @@ Out-of-source-build (preferred):
 $ cd daemonize
 $ mkdir build
 $ cd build
-$ cmake ../
+$ . ../u2up/version; cmake ../ -Dproject_VERSION_MAJOR=$comp_version_MAJOR -Dproject_VERSION_MINOR=$comp_version_MINOR -Dproject_VERSION_PATCH=$comp_version_PATCH
 $ make
 
 In-source-build:
 ----------------
 $ cd daemonize
-$ cmake ./
+$ . ../u2up/version; cmake ./ -Dproject_VERSION_MAJOR=$comp_version_MAJOR -Dproject_VERSION_MINOR=$comp_version_MINOR -Dproject_VERSION_PATCH=$comp_version_PATCH
 $ make
 
 Installation:
@@ -51,7 +51,7 @@ $ make install
 
 And you need to cross-compile as well:
 --------------------------------------
-cmake ../ -DCMAKE_INSTALL_PREFIX=../install -DCMAKE_TOOLCHAIN_FILE=../toolchains/Yocto-arm-linux-gnu.cmake
+$ . ../u2up/version; cmake ../ -Dproject_VERSION_MAJOR=$comp_version_MAJOR -Dproject_VERSION_MINOR=$comp_version_MINOR -Dproject_VERSION_PATCH=$comp_version_PATCH -DCMAKE_INSTALL_PREFIX=../install -DCMAKE_TOOLCHAIN_FILE=../toolchains/Yocto-arm-linux-gnu.cmake
 
 Cleaning:
 =========

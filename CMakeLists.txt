@@ -16,9 +16,9 @@ cmake_minimum_required (VERSION 2.8)
 project (daemonize)
 
 # The project version number.
-set (project_VERSION_MAJOR 0)
-set (project_VERSION_MINOR 1)
-set (project_VERSION_PATCH 1)
+#set (project_VERSION_MAJOR 0)
+#set (project_VERSION_MINOR 1)
+#set (project_VERSION_PATCH 1)
 set (project_VERSION_STRING ${project_VERSION_MAJOR}.${project_VERSION_MINOR}.${project_VERSION_PATCH})
 
 # The project configuration header file passes required CMake settings
